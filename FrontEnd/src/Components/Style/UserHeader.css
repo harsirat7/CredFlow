@@ -1,0 +1,52 @@
+.UserHeaderMainContainer {
+    height: 10vh;
+    width: 100vw;
+    background-color: #172b4d;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.UserHeaderLogoElement {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    color: white;
+    font-size: 45px;
+
+}
+
+.UserHeaderLinksContainer {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.UserHeaderLinksList {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.UserHeaderLinksElements {
+    list-style: none;
+}
+
+.UserHeaderLinksElements a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.UserHeaderLinksElements a:hover {
+    color: #7AAACE;
+}

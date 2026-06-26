@@ -8,6 +8,6 @@ module.exports = {
         "databaseName": "CredFlow",
         "user": "root",
         "password": "1234",
-    }
+    },
 
 };
