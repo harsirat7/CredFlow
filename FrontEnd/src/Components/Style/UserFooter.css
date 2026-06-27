@@ -1,0 +1,68 @@
+.UserFooterMainContainer {
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #172b4d;
+}
+
+.UserFooterLogoElement {
+    height: 100%;
+    width: 20%;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.UserFooterLinksContainer {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.UserFooterLinksTitle {
+    height: 20%;
+    font-size: 55px;
+    padding-top: 50px;
+    color: white;
+}
+
+.UserFooterLinksList{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.UserFooterLinksElements {
+    list-style: none;
+}
+
+.UserFooterLinksElements a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.UserFooterLinksElements a:hover{
+    color: #7AAACE;
+}
+
+.UserFooterContentContainer {
+    height: 100%;
+    width: 30%;
+}
+
+.UserFooterLinksElements i {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}

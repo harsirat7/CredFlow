@@ -10,6 +10,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", router);
 
-app.listen(port, () => {
+app.listen(config.app.portNumber, () => {
     console.log(`Server Running at ${config.app.url}:${config.app.portNumber}`);
 });
