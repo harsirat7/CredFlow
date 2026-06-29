@@ -1,0 +1,68 @@
+.UserInfoContainer{
+    height: 450px;
+    width: 90vw;
+    justify-self: center;
+    background-color: #172b4d;
+    margin-top: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.UserInfoUpperContainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+.userNameLetterElement{
+    height: 90%;
+    background-color: white;
+    width: 5%;
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    border-radius: calc(1000px);
+}
+
+.UserInfoTitle{
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: white;
+}
+
+.UserInfoInnerContainer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.userInfoSettingButtons{
+    height: 50px;
+    width: 250px;
+    border-style: none;
+    border-radius: 1000px;
+    font-size: 25px;
+}
+
+.userInfoSettingButtons:hover{
+    background-color: #172b4d;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}

@@ -1,9 +1,10 @@
-import UserHomePage from "./Source/UserHomePage";
+import { RouterProvider } from "react-router-dom";
+import { router } from "../router";
 function App() {
 
   return (
-    <UserHomePage />
-  )
-}
+    <RouterProvider router={router} />
+  );
+};
 
 export default App;

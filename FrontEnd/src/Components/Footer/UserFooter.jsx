@@ -12,9 +12,9 @@ export default function UserFooter() {
                 <h2 className="UserFooterLinksTitle">Links</h2>
                 <ul className="UserFooterLinksList">
                     <li className="UserFooterLinksElements"><Link to="/">Home</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="/">Your Account</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="/">History</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="/">Transfer Money</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="/account">Your Account</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="/history">History</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="transferMoney">Transfer Money</Link></li>
                 </ul>
             </div>
 
