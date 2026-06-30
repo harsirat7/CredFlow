@@ -3,6 +3,10 @@ import { createBrowserRouter } from "react-router-dom";
 import UserHomePage from "./src/Source/UserHomePage";
 // Import Account(Your Account)
 import Account from "./src/Source/Account";
+// Importing User Account History
+import History from "./src/Source/History";
+// Importing ManageAssets
+import ManageAssets from "./src/Source/ManageAssets";
 
 
 
@@ -16,5 +20,13 @@ export const router = createBrowserRouter([
     {
         path: "/account",
         element: <Account />
+    },
+    {
+        path: "/accountHistory",
+        element: <History />
+    },
+    {
+        path: "/manageAssets",
+        element: <ManageAssets />
     }
 ]);

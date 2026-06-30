@@ -13,8 +13,8 @@ export default function UserFooter() {
                 <ul className="UserFooterLinksList">
                     <li className="UserFooterLinksElements"><Link to="/">Home</Link></li>
                     <li className="UserFooterLinksElements"><Link to="/account">Your Account</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="/history">History</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="transferMoney">Transfer Money</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="/accountHistory">History</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="/manageAssets">Manage Assets</Link></li>
                 </ul>
             </div>
 
@@ -23,10 +23,10 @@ export default function UserFooter() {
                 <h2 className="UserFooterLinksTitle">Contact Us</h2>
                 {/* Using Same Code and ClassName For Contact Us Elements */}
                 <ul className="UserFooterLinksList">
-                    <li className="UserFooterLinksElements"><i class="bi bi-telephone-fill"> +91 700xxxxxxx</i></li>
-                    <li className="UserFooterLinksElements"><i class="bi bi-telephone-fill"> +91 900xxxxxxx</i></li>
-                    <li className="UserFooterLinksElements"><i class="bi bi-envelope"> credflow@gmail.com</i></li>
-                    <li className="UserFooterLinksElements"><i class="bi bi-linkedin"> CredFlow</i></li>
+                    <li className="UserFooterLinksElements"><i className="bi bi-telephone-fill"> +91 700xxxxxxx</i></li>
+                    <li className="UserFooterLinksElements"><i className="bi bi-telephone-fill"> +91 900xxxxxxx</i></li>
+                    <li className="UserFooterLinksElements"><i className="bi bi-envelope"> credflow@gmail.com</i></li>
+                    <li className="UserFooterLinksElements"><i className="bi bi-linkedin"> CredFlow</i></li>
                 </ul>
             </div>
 
