@@ -5,8 +5,8 @@ import UserHomePage from "./src/Source/UserHomePage";
 import Account from "./src/Source/Account";
 // Importing User Account History
 import History from "./src/Source/History";
-// Importing ManageAssets
-import ManageAssets from "./src/Source/ManageAssets";
+import TransferMoney from "./src/Source/TransferMoney";
+// Importing 
 
 
 
@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
         element: <History />
     },
     {
-        path: "/manageAssets",
-        element: <ManageAssets />
+        path: "/transfermoney",
+        element: <TransferMoney /> 
     }
 ]);

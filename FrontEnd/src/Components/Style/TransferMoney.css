@@ -1,0 +1,96 @@
+.transferMainComponent {
+    height: 700px;
+    width: 95%;
+    margin-top: 100px;
+    justify-self: center;
+    border-radius: 25px;
+    background-color: #172b4d;
+}
+
+.balanceElement {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border-bottom: 2px solid white;
+}
+
+.transferFormContainer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.moneyTransferForm {
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transferButton {
+    height: 75px;
+    width: 250px;
+    border-style: none;
+    border-radius: 1000px;
+    font-size: 35px;
+}
+
+.transferButton:hover {
+    cursor: pointer;
+    background-color: #172b4d;
+    color: white;
+    border: 2px solid white;
+}
+
+.trasnferFormLabelsContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.transferFormInputsContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.transferFormLabels {
+    font-size: 35px;
+    color: white;
+}
+
+.transferFormInputs{
+    height: 70px;
+    width: 350px;
+    border-style: none;
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 25px;    
+}
+
+.transferResult{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}

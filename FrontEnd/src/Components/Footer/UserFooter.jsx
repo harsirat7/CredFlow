@@ -14,7 +14,7 @@ export default function UserFooter() {
                     <li className="UserFooterLinksElements"><Link to="/">Home</Link></li>
                     <li className="UserFooterLinksElements"><Link to="/account">Your Account</Link></li>
                     <li className="UserFooterLinksElements"><Link to="/accountHistory">History</Link></li>
-                    <li className="UserFooterLinksElements"><Link to="/manageAssets">Manage Assets</Link></li>
+                    <li className="UserFooterLinksElements"><Link to="/transfermoney">Transfer Money</Link></li>
                 </ul>
             </div>
 

@@ -16,7 +16,7 @@ export default function UserHeader() {
                     <li className="UserHeaderLinksElements"><Link to="/">Home</Link></li>
                     <li className="UserHeaderLinksElements"><Link to="/account">Your Account</Link></li>
                     <li className="UserHeaderLinksElements"><Link to="/accountHistory">History</Link></li>
-                    <li className="UserHeaderLinksElements"><Link to="/manageAssets">Manage Assets</Link></li>
+                    <li className="UserHeaderLinksElements"><Link to="/transfermoney">Transfer Money</Link></li>
                 </ul>
             </div>
 
